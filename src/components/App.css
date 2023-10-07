@@ -1,0 +1,52 @@
+.title {
+  float: left;
+  font-size:50px;
+  border-bottom: solid 3px black;
+}
+
+.box1 {
+  padding: 0.5em 1em;
+  margin: 10em 10em 0em 10em;
+  font-weight: bold;
+  border: solid 3px #000000;
+}
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.box2 {
+  padding: 2em 1em;
+  margin: -0.2em 10em;
+  font-weight: bold;
+  border: solid 3px #000000;
+}
+.box2 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.border_btn01 {
+  display: inline-block;
+  width: 100%;
+  max-width: 350px; /* ボタン幅 */
+  color: #000000; /* 文字色 */
+  border: 2px solid #000000; /* 線幅・種類・色 */
+  background: #fff; /* 背景色 */
+  padding: 1em 2em;
+  font-weight: bold; /* 文字の太さ */
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* マウスオーバーした際のデザイン */
+.border_btn01:hover {
+  color: #fff; /* 文字色 */
+  background: #000000; /* 背景色 */
+}
+
+.subtitle{
+  float: right;
+  font-size:20px;
+}
